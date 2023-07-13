@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  background-color: lightblue;
+  padding: 8px;
+  border: 2px purple solid;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-left: 12px;
+  background-color: rgb(47, 117, 79);
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0 6px 0 6px;
+  height: 23px;
+  transition: 0.6s;
+}
+
+.btn-login {
+  background-color: rgb(229, 126, 89);
+  color: #000;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+  color: #000;
+}
+
+#home {
+  background-color: rgb(161, 191, 247);
+}
+
+#aboutus {
+  background-color: rgb(175, 217, 146);
+}
+
+#services {
+  background-color: rgb(230, 180, 237);
+}
+
+#contact {
+  background-color: rgb(246, 214, 145);
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.containerLogin {
+  display: flex;
+  justify-content: center;
+}
+
+#login_title {
+  text-align: center;
+}
